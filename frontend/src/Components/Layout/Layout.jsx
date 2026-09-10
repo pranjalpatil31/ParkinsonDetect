@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react';
+// import { useState } from 'react';
 import '../../Styles/layout.css'
 import symtoms from '../../Assets/symtoms.png'
 
@@ -8,21 +8,21 @@ import symtoms from '../../Assets/symtoms.png'
 import MultiStepForm from './MultiStepForm';
 const Layout = () => {
 
-    const [inputValues, setInputValues] = useState({
-        mdvpFo: '',
-        mdvpFhi: '',
-        mdvpFlo: '',
-        mdvpJitterPercent: '',
-        mdvpJitterAbsolute: '',
-    });
+    // const [inputValues, setInputValues] = useState({
+    //     mdvpFo: '',
+    //     mdvpFhi: '',
+    //     mdvpFlo: '',
+    //     mdvpJitterPercent: '',
+    //     mdvpJitterAbsolute: '',
+    // });
 
-    const handleInputChange = (event) => {
-        const { name, value } = event.target;
-        setInputValues((prevValues) => ({
-            ...prevValues,
-            [name]: value,
-        }));
-    };
+    // const handleInputChange = (event) => {
+    //     const { name, value } = event.target;
+    //     setInputValues((prevValues) => ({
+    //         ...prevValues,
+    //         [name]: value,
+    //     }));
+    // };
 
 
   return (
