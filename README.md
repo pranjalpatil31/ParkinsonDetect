@@ -1,7 +1,7 @@
 # ParkinsonDetect
 
 <p align="center">
-  <img src="./frontend/src/Assets/log.png" alt="ParkinsonDetect Logo" width="180"/>
+  <img src="./frontend/src/Assets/log.png" alt="ParkinsonDetect Logo" width="100%"/>
 </p>
 
 <h1 align="center">ParkinsonDetect</h1>
